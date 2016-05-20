@@ -1,0 +1,4 @@
+Revision history for ExtJS-Generator-DBIC: {{ $dist->version }}
+
+{{ $NEXT }}
+    - Initial release
