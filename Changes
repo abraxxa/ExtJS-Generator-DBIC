@@ -1,4 +1,6 @@
 Revision history for ExtJS-Generator-DBIC: {{ $dist->version }}
 
 {{ $NEXT }}
+
+0.001     2016-05-20 11:45:51+02:00 Europe/Vienna
     - Initial release
