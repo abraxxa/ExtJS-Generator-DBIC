@@ -1,6 +1,7 @@
 Revision history for ExtJS-Generator-DBIC: {{ $dist->version }}
 
 {{ $NEXT }}
+    - fix missing Data::Dump::JavaScript dependency (RT#114532)
 
 0.002     2016-05-20 12:02:00+02:00 Europe/Vienna
     - fix PAUSE indexing because of missing ExtJS::Generator::DBIC module
