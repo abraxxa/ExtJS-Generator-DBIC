@@ -1,6 +1,7 @@
 Revision history for ExtJS-Generator-DBIC: {{ $dist->version }}
 
 {{ $NEXT }}
+    - fix failing tests under unsupported Perl versions (< 5.22) (RT#114531)
     - fix missing Data::Dump::JavaScript dependency (RT#114532)
 
 0.002     2016-05-20 12:02:00+02:00 Europe/Vienna

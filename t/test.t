@@ -9,6 +9,13 @@ use ExtJS::Generator::DBIC::Model;
 use Data::Dump::JavaScript qw( false true );
 use lib 't/lib';
 
+BEGIN {
+    if ($] < 5.022) {
+        require POSIX;
+        POSIX::setlocale(&POSIX::LC_ALL, 'C');
+    }
+}
+
 my $generator = ExtJS::Generator::DBIC::Model->new(
     schemaname => 'My::Schema',
     appname    => 'MyApp',
